@@ -141,6 +141,44 @@ div.celular-contenedor-imagenes img {
     margin-left: 0.5rem;
 }
 
+div.celular-chat, div.celular-contenedor-imagenes, div.celular-promocion {
+    opacity: 0;
+    animation-name: aparicion;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+.chat-1 {
+    animation-delay: 0.5s;
+}
+
+.chat-2 {
+    animation-delay: 0.9s;
+}
+
+.chat-3 {
+    animation-delay: 1.5s;
+}
+
+.chat-4 {
+    animation-delay: 1.9s;
+}
+.chat-5 {
+    animation-delay: 2.3s;
+}
+
+.chat-6 {
+    animation-delay: 2.9s;
+}
+
+.chat-7 {
+    animation-delay: 3.3s;
+}
+
+.chat-8 {
+    animation-delay: 3.7s;
+}
+
 /*IMAGENES*/
 div.celular-contenedor-chats {
     padding: 0.5rem;
@@ -324,5 +362,17 @@ div.fondo-oscuro {
         height: 75%;
         border-radius: 500px 500px 0 0;
         right: -120px;
+    }
+}
+
+
+/*ANIMACION------------------------------------------------------------------------------------------------------------------------------------*/
+
+@keyframes aparicion {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
