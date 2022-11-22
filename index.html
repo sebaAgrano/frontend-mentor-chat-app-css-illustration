@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="figura-fondo fondo-claro"></div>
+        <div class="figura-fondo fondo-oscuro"></div>
+        <div class="celular">
+            <div class="celular-parlante"></div>
+            <div class="celular-contacto">
+                <span class="material-icons-outlined">arrow_back_ios</span>
+                <img src="img/avatar.jpg" alt="Foto de perfil">
+                <div class="celular-contacto-informacion">
+                    <h3>Samuel Green</h3>
+                    <p>Available to Walk</p>
+                </div>
+                <span class="material-icons-outlined tres-puntos">more_vert</span>
+            </div>
+            <div class="celular-contenedor-chats">
+                <div class="celular-chat chat-contacto">
+                    <p>That sounds great. I'd be happy with that.</p>
+                </div>
+                <div class="celular-chat chat-contacto">
+                    <p>Could you send over some pictures of your dog, please?</p>
+                </div>
+                <div class="celular-contenedor-imagenes">
+                    <img src="img/dog-image-1.jpg" alt="Imagen perro 1">
+                    <img src="img/dog-image-2.jpg" alt="Imagen perro 2">
+                    <img src="img/dog-image-3.jpg" alt="Imagen perro 3">
+                </div>
+                <div class="celular-chat chat-usuario">
+                    <p>Here are a few pictures. She's a happy girl!</p>
+                </div>
+                <div class="celular-chat chat-usuario">
+                    <p>Can you make it?</p>
+                </div>
+                <div class="celular-chat chat-contacto">
+                    <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+                </div>
+                <form action="" method="get">
+                    <div class="celular-promocion">
+                        <input type="radio" name="selector" id="boton1">
+                        <label for="boton1">30 minutes walk</label>
+                        <p class="precio">$29</p>
+                    </div>
+                    <div class="celular-promocion">
+                        <input type="radio" name="selector" id="boton2">
+                        <label for="boton2">1 hour walk</label>
+                        <p class="precio">$49</p>
+                    </div>
+                    <div class="celular-mensaje">
+                        <input type="text" placeholder="Type a message...">
+                        <button type="submit" >
+                            <span class="material-icons-outlined">navigate_next</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="texto-principal">
+            <h1>Simple booking</h1>
+            <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make booking. Once the walk has been completed you can rate
+                your walker and book againall through the chat.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
